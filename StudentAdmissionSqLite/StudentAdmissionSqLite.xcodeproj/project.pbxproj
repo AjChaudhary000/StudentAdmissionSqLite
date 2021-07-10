@@ -12,10 +12,10 @@
 		0B09EC2426984DDE0031A4DF /* AddNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09EC2326984DDE0031A4DF /* AddNoticeVC.swift */; };
 		0B09EC262698538D0031A4DF /* StudentcellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09EC252698538D0031A4DF /* StudentcellTV.swift */; };
 		0B1421DC269969F200F04765 /* UpdateStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421DB269969F200F04765 /* UpdateStudent.swift */; };
-		0B1421DE26996DF800F04765 /* StudentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421DD26996DF800F04765 /* StudentDetailsVC.swift */; };
 		0B1421E02699797B00F04765 /* NoticeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421DF2699797B00F04765 /* NoticeDetailVC.swift */; };
 		0B1421E2269979BD00F04765 /* NoticecellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421E1269979BC00F04765 /* NoticecellTV.swift */; };
 		0B1421E4269979FE00F04765 /* NoticeViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421E3269979FE00F04765 /* NoticeViewVC.swift */; };
+		0B1421E626998ECC00F04765 /* StudentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1421E526998ECC00F04765 /* StudentDetailsVC.swift */; };
 		0B84E3262696DCFB00281DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B84E3252696DCFB00281DDA /* AppDelegate.swift */; };
 		0B84E3282696DCFB00281DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B84E3272696DCFB00281DDA /* ViewController.swift */; };
 		0B84E32B2696DCFB00281DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B84E3292696DCFB00281DDA /* Main.storyboard */; };
@@ -35,10 +35,10 @@
 		0B09EC2326984DDE0031A4DF /* AddNoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoticeVC.swift; sourceTree = "<group>"; };
 		0B09EC252698538D0031A4DF /* StudentcellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentcellTV.swift; sourceTree = "<group>"; };
 		0B1421DB269969F200F04765 /* UpdateStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStudent.swift; sourceTree = "<group>"; };
-		0B1421DD26996DF800F04765 /* StudentDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentDetailsVC.swift; path = ../../../.Trash/StudentDetailsVC.swift; sourceTree = "<group>"; };
 		0B1421DF2699797B00F04765 /* NoticeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeDetailVC.swift; sourceTree = "<group>"; };
 		0B1421E1269979BC00F04765 /* NoticecellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticecellTV.swift; sourceTree = "<group>"; };
 		0B1421E3269979FE00F04765 /* NoticeViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewVC.swift; sourceTree = "<group>"; };
+		0B1421E526998ECC00F04765 /* StudentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsVC.swift; sourceTree = "<group>"; };
 		0B84E3222696DCFB00281DDA /* StudentAdmissionSqLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentAdmissionSqLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B84E3252696DCFB00281DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B84E3272696DCFB00281DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,6 @@
 				0B09EC1D2698367F0031A4DF /* AddStudent.swift */,
 				0B09EC2326984DDE0031A4DF /* AddNoticeVC.swift */,
 				0B1421DB269969F200F04765 /* UpdateStudent.swift */,
-				0B1421DD26996DF800F04765 /* StudentDetailsVC.swift */,
 				0B09EC252698538D0031A4DF /* StudentcellTV.swift */,
 				0B84E3372696DD3C00281DDA /* SqLiteHandler.swift */,
 				0B84E3392696F0B000281DDA /* Student.swift */,
@@ -105,6 +104,7 @@
 				0B84E32C2696DCFD00281DDA /* Assets.xcassets */,
 				0B84E32E2696DCFD00281DDA /* LaunchScreen.storyboard */,
 				0B84E3312696DCFD00281DDA /* Info.plist */,
+				0B1421E526998ECC00F04765 /* StudentDetailsVC.swift */,
 			);
 			path = StudentAdmissionSqLite;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 				0B1421DC269969F200F04765 /* UpdateStudent.swift in Sources */,
 				0B1421E4269979FE00F04765 /* NoticeViewVC.swift in Sources */,
 				0B84E33A2696F0B000281DDA /* Student.swift in Sources */,
-				0B1421DE26996DF800F04765 /* StudentDetailsVC.swift in Sources */,
 				0B1421E02699797B00F04765 /* NoticeDetailVC.swift in Sources */,
 				0B84E33C26970DB800281DDA /* LoginVC.swift in Sources */,
+				0B1421E626998ECC00F04765 /* StudentDetailsVC.swift in Sources */,
 				0B09EC2226984B1A0031A4DF /* Notice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
